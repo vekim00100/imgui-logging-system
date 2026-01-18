@@ -1,2 +1,6 @@
 #include "Logger.h"
-// Logger implementation coming in Phase 5
+
+Logger& Logger::Get() {
+    static Logger instance;
+    return instance;
+}

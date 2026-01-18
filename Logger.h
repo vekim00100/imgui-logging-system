@@ -1,2 +1,9 @@
 #pragma once 
-// Logger class - implementation added in Phase 5
+
+class Logger {
+    public:
+        static Logger& Get();
+
+    private:
+        Logger() = default;
+};
