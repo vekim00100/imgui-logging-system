@@ -1,4 +1,5 @@
 #include "Application.h"
+#include "Logger.h"
 #include "imgui/imgui.h"
 
 namespace ClassGame {
